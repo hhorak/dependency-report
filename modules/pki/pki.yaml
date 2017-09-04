@@ -1,10 +1,13 @@
+---
 document: modulemd
 version: 1
 data:
-    summary: pki module
-    description: This pki has been generated
+    summary: Certificate System - PKI Core Components
+    description: Certificate System (CS) is an enterprise software system
+                 designed to manage enterprise Public Key Infrastructure
+                 (PKI) deployments.
     license:
-        module: [ MIT ]
+        module: [MIT]
     dependencies:
         buildrequires:
             bootstrap: master
@@ -19,65 +22,72 @@ data:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/pki
         tracker: https://github.com/modularity-modules/pki
+    profiles:
+        default:
+            rpms:
+                - pki-core
+    api:
+        rpms:
+            - pki-core
     components:
         rpms:
             apache-commons-cli:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             jakarta-commons-httpclient:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             javassist:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             ldapjdk:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             net-tools:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             nuxwdog:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pki-core:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-beautifulsoup4:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-cssselect:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-html5lib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ldap:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-lxml:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-nss:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-pyasn1:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             slf4j:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             velocity:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xalan-j2:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xerces-j2:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xml-commons-apis:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xml-commons-resolver:
                 rationale: Generated.
-                ref: master.
+                ref: f27
