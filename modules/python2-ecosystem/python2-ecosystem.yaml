@@ -1,10 +1,12 @@
+---
 document: modulemd
 version: 1
 data:
-    summary: python2-ecosystem module
-    description: This python2-ecosystem has been generated
+    summary: Most common python2 dependencies
+    description: This module is used for delivering most common python2
+                 packages that are dependencies of other modules.
     license:
-        module: [ MIT ]
+        module: [MIT]
     dependencies:
         buildrequires:
             bootstrap: master
@@ -20,67 +22,67 @@ data:
         rpms:
             pyOpenSSL:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pyparsing:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-asn1crypto:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-backports:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-backports-ssl_match_hostname:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-cffi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-chardet:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-coverage:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-cryptography:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-decorator:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-enum34:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-idna:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ipaddress:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ordered-set:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-ply:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-pycparser:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-pysocks:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests-file:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-requests-ftp:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             python-urllib3:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             pytz:
                 rationale: Generated.
-                ref: master.
+                ref: f27
