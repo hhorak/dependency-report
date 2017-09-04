@@ -20,6 +20,10 @@ data:
         default:
             rpms:
                 - java-1.8.0-openjdk
+    api:
+        rpms:
+            - java-1.8.0-openjdk
+            - java-1.8.0-openjdk-devel
     components:
         rpms:
             aajohan-comfortaa-fonts:
