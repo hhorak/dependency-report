@@ -13,7 +13,7 @@ data:
         requires:
             platform: master
             platform-placeholder: master
-            python2: master
+            python3: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/python3-ecosystem
