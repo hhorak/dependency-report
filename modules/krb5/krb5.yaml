@@ -1,10 +1,11 @@
+---
 document: modulemd
 version: 1
 data:
-    summary: krb5 module
-    description: This krb5 has been generated
+    summary: The Kerberos network authentication system
+    description: Kerberos V5 is a trusted-third-party network authentication system, which can improve your network's security by eliminating the insecure practice of sending passwords over the network in unencrypted form.
     license:
-        module: [ MIT ]
+        module: [MIT]
     dependencies:
         buildrequires:
             bootstrap: master
@@ -15,8 +16,16 @@ data:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/krb5
         tracker: https://github.com/modularity-modules/krb5
+    profiles:
+        default:
+            rpms:
+                - krb5-workstation
+    api:
+        rpms:
+            - krb5-libs
+            - krb5-workstation
     components:
         rpms:
             words:
                 rationale: Generated.
-                ref: master.
+                ref: f27
