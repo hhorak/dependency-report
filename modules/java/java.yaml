@@ -2,16 +2,16 @@
 document: modulemd
 version: 1
 data:
-    summary: java module
-    description: This java has been generated
+    summary: OpenJDK Runtime Environment
+    description: The OpenJDK runtime environment.
     license:
         module: [MIT]
     dependencies:
         buildrequires:
-            bootstrap: master
+            bootstrap: f27
         requires:
-            platform: master
-            platform-placeholder: master
+            platform: f27
+            platform-placeholder: f27
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/java
@@ -28,79 +28,79 @@ data:
         rpms:
             aajohan-comfortaa-fonts:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             copy-jdk-configs:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fontconfig:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             fontpackages:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             freetype:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             giflib:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             java-1.8.0-openjdk:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             javapackages-tools:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libfontenc:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libICE:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libpng:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libSM:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libX11:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXau:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libxcb:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXcomposite:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXext:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXfont:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXi:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXrender:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             libXtst:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             lua-posix:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             ttmkfdir:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             which:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xorg-x11-fonts:
                 rationale: Generated.
-                ref: master.
+                ref: f27
             xorg-x11-font-utils:
                 rationale: Generated.
-                ref: master.
+                ref: f27
