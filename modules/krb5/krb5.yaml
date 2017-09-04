@@ -3,7 +3,10 @@ document: modulemd
 version: 1
 data:
     summary: The Kerberos network authentication system
-    description: Kerberos V5 is a trusted-third-party network authentication system, which can improve your network's security by eliminating the insecure practice of sending passwords over the network in unencrypted form.
+    description: Kerberos V5 is a trusted-third-party network authentication
+                 system, which can improve your network's security by
+                 eliminating the insecure practice of sending passwords over
+                 the network in unencrypted form.
     license:
         module: [MIT]
     dependencies:
