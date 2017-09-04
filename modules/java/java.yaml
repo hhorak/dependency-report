@@ -8,10 +8,10 @@ data:
         module: [MIT]
     dependencies:
         buildrequires:
-            bootstrap: f27
+            bootstrap: master
         requires:
-            platform: f27
-            platform-placeholder: f27
+            platform: master
+            platform-placeholder: master
     references:
         community: https://docs.pagure.org/modularity/
         documentation: https://github.com/modularity-modules/java
